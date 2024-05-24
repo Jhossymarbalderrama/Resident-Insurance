@@ -1,0 +1,31 @@
+
+
+#home{
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: linear-gradient(to top, #24242442, #2424241a), url('./src/pexels-rdne-7821915.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-shadow: 1px 1px 1px #3b3b3b81;      
+}
+
+
+.home-content{
+    height: 75vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-shadow: 1px 1px 10px #dadadaee;   
+    filter: blur(0);
+}
+
+.bg-transparent{
+    height: 100%;
+    background-color: #002f6d41 !important;
+    padding: 8rem 3rem !important;
+    margin: -2.5rem -10rem 0rem 0rem !important;
+    border-radius: 5px !important;    
+}
+
